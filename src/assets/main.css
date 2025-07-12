@@ -1,0 +1,109 @@
+@import './base.css';
+@import "tailwindcss";
+
+#app {
+  margin: 0 auto;
+  background-color: #2c3e50;
+  color: white;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@font-face {
+  font-family: Geist;
+  font-display: swap;
+  src: url('/public/assets/fonts/geist.woff2') format('woff2');
+}
+
+@theme {
+  --font-sans: Geist, sans-serif;
+  --color-primary: rgba(48, 45, 215, 1);
+  --color-primary-transparent: rgba(48, 45, 215, 0.1);
+  --color-primary-dark: rgba(35, 32, 187, 1);
+  --color-primary-dark-100: rgba(39, 36, 183, 1);
+  --color-primary-dark-150: rgba(39, 37, 187, 1);
+  --color-primary-dark-200: rgba(48, 45, 215, 1);
+  --color-primary-dark-220: rgba(39, 36, 183, 1);
+  --color-primary-dark-250: rgba(30, 28, 142, 1);
+  --color-primary-dark-300: rgba(24, 22, 107, 1);
+  --color-primary-dark-400: rgba(20, 19, 91, 1);
+  --color-primary-blend: rgba(40, 38, 186, 1);
+  --color-highlight: rgba(255, 255, 255, 0.2);
+  --color-secondary-dark: rgba(25, 25, 25, 1);
+  --color-secondary: rgba(51, 51, 51, 1);
+  --color-secondary-light: rgba(110, 110, 110, 1);
+  --color-secondary-light-100: rgba(162, 162, 162, 1);
+  --color-secondary-light-200: rgba(186, 186, 186, 1);
+  --color-secondary-light-300: rgba(195, 195, 195, 1);
+  --color-secondary-light-350: rgba(211, 211, 211, 1);
+  --color-secondary-light-400: rgba(220, 220, 220, 1);
+  --color-secondary-light-500: rgba(242, 242, 242, 1);
+  --color-secondary-light-600: rgba(250, 250, 250, 1);
+  --color-secondary-light-700: rgba(255, 255, 255, 1);
+  --color-tertiary: rgba(117, 251, 76, 1);
+  --color-neon: rgba(38, 250, 38, 1);
+  --color-category: rgba(126, 225, 255, 0.15);
+
+  --heading-size-1: 3.5rem;
+  --heading-size-2: 2.5rem;
+  --heading-size-3: 2.188rem;
+  --heading-size-4: 1.75rem;
+  --heading-size-5: 1.375rem;
+  --heading-size-6: 1.25rem;
+  --heading-size-7: 1.75rem;
+  --heading-size-8: 1.125rem;
+  --heading-size-9: 1.5rem;
+  --heading-line-height-1: 110%;
+  --heading-line-height-2: 123%;
+  --heading-line-height-3: 123%;
+  --heading-line-height-4: 150%;
+  --heading-line-height-5: 120%;
+  --heading-line-height-6: 130%;
+  --heading-line-height-7: 123%;
+  --heading-line-height-8: 105%;
+  --heading-line-height-9: 140%;
+  --heading-sm-size-1: 2.188rem;
+  --heading-sm-size-2: 1.563rem;
+  --heading-sm-size-3: 1.563rem;
+  --heading-sm-size-4: 1.75rem;
+  --heading-sm-size-5: 1.375rem;
+  --heading-sm-size-6: 1.25rem;
+  --heading-sm-size-7: 1rem;
+  --heading-sm-size-8: 1rem;
+  --heading-sm-size-9: 1.25rem;
+  --heading-sm-line-height-1: 110%;
+  --heading-sm-line-height-2: 110%;
+  --heading-sm-line-height-3: 110%;
+  --heading-sm-line-height-4: 150%;
+  --heading-sm-line-height-5: 120%;
+  --heading-sm-line-height-6: 130%;
+  --heading-sm-line-height-7: 123%;
+  --heading-sm-line-height-8: 130%;
+  --heading-sm-line-height-9: 120%;
+
+  --gradient-primary: linear-gradient(0deg, rgba(40, 38, 186, 1) 0%, rgba(40, 38, 186, 0) 100%);
+  --gradient-primary-inv: linear-gradient(
+          180deg,
+          rgba(40, 38, 186, 1) 0%,
+          rgba(40, 38, 186, 0) 100%
+  );
+  --gradient-content: linear-gradient(
+          12deg,
+          rgba(48, 45, 215, 0.4) 0%,
+          rgba(48, 45, 215, 0.6) 100%
+  );
+  --gradient-content-active: linear-gradient(
+          12deg,
+          rgba(48, 45, 215, 0.71) 0%,
+          rgba(48, 45, 215, 0.8) 100%
+  );
+
+  --radius-base: 0.9375rem;
+  --radius-button: 3.75rem;
+}
