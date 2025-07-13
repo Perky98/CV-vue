@@ -32,7 +32,7 @@ import { ref } from 'vue'
       </div>
       <div id="tab1" class="tabcontent p-4 space-y-4">
         <div class="flex gap-5">
-          <img class="w-[30px] h-[30px] mt-1" src="./src/assets/gospace-labs-white.svg">
+          <img class="w-[30px] h-[30px] mt-1" src="@/assets/gospace-labs-white.svg">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Junior Frontend Developer</h2>
             <a class="font-bold text-gray-100 text-lg" target="_blank" href="https://www.gospace.tech/">Gospace labs</a>
@@ -42,7 +42,7 @@ import { ref } from 'vue'
 
         </div>
         <div class="flex gap-5">
-          <img class="w-[30px] h-[30px] mt-1" src="./src/assets/shieldonelogo.png">
+          <img class="w-[30px] h-[30px] mt-1" src="@/assets/shieldonelogo.png">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Junior Developer</h2>
             <a class="font-bold text-gray-100 text-lg" target="_blank" href="https://www.shieldone.sk/">Shieldone</a>
