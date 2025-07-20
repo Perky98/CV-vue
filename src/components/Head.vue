@@ -19,11 +19,11 @@ const age = computed(() => {
 </script>
 
 <template>
-  <section class="flex flex-col flex-wrap p-10 px-8 sm:py-20 md:py-20 lg:py-40 lg:pt-20 mx-auto h-full  justify-between  ">
+  <section class="flex flex-col flex-wrap md:max-w-3xl p-10 px-8 sm:py-20 md:py-20 lg:py-40 lg:pt-20 mx-auto h-full  justify-between  ">
     <h1 class="text-3xl font-bold md:text-7xl">Juraj Hertel</h1>
-    <h3 class="text-3xl py-3">Frontend Developer | Maybe one day Fullstack</h3>
+    <h3 class="text-xl md:text-3xl py-3">Frontend Developer | Maybe one day Fullstack</h3>
     <div class="flex flex-col md:flex-row gap-1 md:gap-4">
-      <div class="flex gap-4 py-3 items-center">
+      <div class="flex gap-4 md:py-3 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="30" height="30">
           <path d="M50 15 C35 15, 25 25, 25 40 C25 55, 50 75, 50 75 C50 75, 75 55, 75 40 C75 25, 65 15, 50 15 Z"
                 fill="#4aa962"/>
