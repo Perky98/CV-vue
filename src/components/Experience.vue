@@ -54,27 +54,27 @@ import { ref } from 'vue'
 
       </div>
       <div id="tab2" class="tabcontent p-4 hidden space-y-4" >
-        <div class="flex ">
-          <img >
+        <div class="flex gap-5">
+          <img class="w-[30px] h-[30px] mt-1" src="@/assets/ucm.png">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Computer science</h2>
-            <span class="font-bold text-gray-100 text-lg" href="gospace.tech">Magister degree UCM Trnava</span>
+            <span class="font-bold text-gray-100 text-lg">Magister degree UCM Trnava</span>
             <h3 class="text-gray-100">September 2025 - Expect May 2027</h3>
           </div>
         </div>
-        <div class="flex ">
-          <img >
+        <div class="flex gap-5">
+          <img class="w-[30px] h-[30px] mt-1" src="@/assets/ucm.png">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Computer science</h2>
-            <span class="font-bold text-gray-100 text-lg" href="gospace.tech">Bachalor degree UCM Trnava</span>
+            <span class="font-bold text-gray-100 text-lg">Bachalor degree UCM Trnava</span>
             <h3 class="text-gray-100">September 2022 - May 2025</h3>
           </div>
         </div>
-        <div class="flex">
-          <img >
+        <div class="flex gap-5">
+          <img class="w-[30px] h-[30px] mt-1" src="@/assets/spstrnava.png">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Mechatronics</h2>
-            <span class="font-bold text-gray-100 text-lg" href="gospace.tech">SPŠ Trnava</span>
+            <span class="font-bold text-gray-100 text-lg">SPŠ Trnava</span>
             <h3 class="text-gray-100">September 2018 - May 2022</h3>
           </div>
         </div>
