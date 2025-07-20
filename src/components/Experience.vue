@@ -60,6 +60,7 @@ import { ref } from 'vue'
             <h2 class="text-2xl font-bold text-gray-100">Computer science</h2>
             <span class="font-bold text-gray-100 text-lg">Magister degree UCM Trnava</span>
             <h3 class="text-gray-100">September 2025 - Expect May 2027</h3>
+
           </div>
         </div>
         <div class="flex gap-5">
