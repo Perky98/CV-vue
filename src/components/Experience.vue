@@ -18,7 +18,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-  <section class="flex justify-center">
+  <section class="flex justify-center px-3 md:px-0">
     <div class="w-full md:max-w-3xl">
       <div class="flex border-b border-gray-300">
         <button
@@ -32,12 +32,12 @@ import { ref } from 'vue'
       </div>
       <div id="tab1" class="tabcontent p-4 space-y-4">
         <div class="flex gap-5">
-          <img class="w-[30px] h-[30px] mt-1" src="@/assets/gospace-labs-white.svg">
+          <img class="w-[30px] h-[30px] mt-1 " src="@/assets/gospace-labs-white.svg">
           <div>
             <h2 class="text-2xl font-bold text-gray-100">Junior Frontend Developer</h2>
             <a class="font-bold text-gray-100 text-lg" target="_blank" href="https://www.gospace.tech/">Gospace labs</a>
             <h3 class="text-gray-100">February 2025 - present</h3>
-            <p class="mt-2 text-gray-100">Web development, PHP, Laravel, Vue.js, Tailwind, Alpine.js, Inertia.js</p>
+            <p class="text-gray-100">Web development, PHP, Laravel, Vue.js, Tailwind, Alpine.js, Inertia.js</p>
           </div>
 
         </div>
@@ -47,7 +47,7 @@ import { ref } from 'vue'
             <h2 class="text-2xl font-bold text-gray-100">Junior Developer</h2>
             <a class="font-bold text-gray-100 text-lg" target="_blank" href="https://www.shieldone.sk/">Shieldone</a>
             <h3 class="text-gray-100">June 2023 - May 2025</h3>
-            <p class="mt-2 text-gray-100">Web development, Wordpress, Elementor, SCCS, PHP, JS, SEO</p>
+            <p class="text-gray-100">Web development, Wordpress, Elementor, SCCS, PHP, JS, SEO</p>
           </div>
 
         </div>
