@@ -26,8 +26,6 @@ const age = computed(() => {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="30" height="30">
           <path d="M50 15 C35 15, 25 25, 25 40 C25 55, 50 75, 50 75 C50 75, 75 55, 75 40 C75 25, 65 15, 50 15 Z"
                 fill="#4aa962"/>
-
-          <!-- Vnitřní kruh -->
           <circle cx="50" cy="40" r="8" fill="#fff"/>
         </svg>
         <p >Horné Otrokovce | Slovakia </p>

@@ -1,6 +1,6 @@
 <script setup>
 import Head from '../components/Head.vue'
-import Experience from '@/components/Experience.vue'
+import Experience from '@/components/Experience/Experience.vue'
 import Projects from '@/components/Projects.vue'
 </script>
 
