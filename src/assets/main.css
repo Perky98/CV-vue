@@ -1,5 +1,5 @@
 @import './base.css';
-@import "tailwindcss";
+@import 'tailwindcss';
 
 #app {
   margin: 0 auto;
@@ -15,7 +15,6 @@
 
 @theme {
   --color-neon: hsla(160, 100%, 37%, 1);
-
 
   --font-sans: Geist, sans-serif;
   --color-primary: rgba(48, 45, 215, 1);
@@ -84,19 +83,19 @@
 
   --gradient-primary: linear-gradient(0deg, rgba(40, 38, 186, 1) 0%, rgba(40, 38, 186, 0) 100%);
   --gradient-primary-inv: linear-gradient(
-          180deg,
-          rgba(40, 38, 186, 1) 0%,
-          rgba(40, 38, 186, 0) 100%
+    180deg,
+    rgba(40, 38, 186, 1) 0%,
+    rgba(40, 38, 186, 0) 100%
   );
   --gradient-content: linear-gradient(
-          12deg,
-          rgba(48, 45, 215, 0.4) 0%,
-          rgba(48, 45, 215, 0.6) 100%
+    12deg,
+    rgba(48, 45, 215, 0.4) 0%,
+    rgba(48, 45, 215, 0.6) 100%
   );
   --gradient-content-active: linear-gradient(
-          12deg,
-          rgba(48, 45, 215, 0.71) 0%,
-          rgba(48, 45, 215, 0.8) 100%
+    12deg,
+    rgba(48, 45, 215, 0.71) 0%,
+    rgba(48, 45, 215, 0.8) 100%
   );
 
   --radius-base: 0.9375rem;
