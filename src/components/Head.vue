@@ -19,7 +19,7 @@ const age = computed(() => {
 
 <template>
   <section
-    class="flex flex-col flex-wrap md:max-w-3xl p-10 px-8 sm:py-20 md:py-20 lg:py-40 lg:pt-20 mx-auto h-full justify-between"
+    class="flex flex-col flex-wrap md:max-w-5xl p-10 px-8 sm:py-20 md:py-20 lg:py-40 lg:pt-20 mx-auto h-full justify-between"
   >
     <h1 class="text-3xl font-bold md:text-7xl">Juraj Hertel</h1>
     <h3 class="text-xl md:text-3xl py-3">Frontend Developer | Maybe one day Fullstack</h3>

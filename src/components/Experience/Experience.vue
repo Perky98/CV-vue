@@ -21,7 +21,7 @@ const openTab = (evt: Event, tabName: string) => {
 
 <template>
   <section class="flex justify-center px-3 md:px-0">
-    <div class="w-full md:max-w-3xl">
+    <div class="w-full md:max-w-5xl">
       <div class="flex border-b border-gray-300">
         <button
           class="w-1/2 py-4 text-center font-medium text-gray-100 font-semibold rounded-tl-lg border-2 border-gray-100 focus:outline-none hover:bg-gray-100 hover:text-gray-700"
@@ -42,6 +42,7 @@ const openTab = (evt: Event, tabName: string) => {
           link="https://www.gospace.tech/"
           image="gospace-labs-white.svg"
           durations="February 2025 - present"
+          type="Part-time"
           technologies="Web development, PHP, Laravel, Vue.js, Tailwind, Alpine.js, Inertia.js"
           name="Gospace labs"
         />
@@ -50,6 +51,7 @@ const openTab = (evt: Event, tabName: string) => {
           link="https://www.shieldone.sk/"
           image="shieldonelogo.png"
           durations="June 2023 - May 2025"
+          type="Part-time"
           technologies="Web development, Wordpress, Elementor, SCCS, PHP, JS, SEO"
           name="Shieldone"
         />

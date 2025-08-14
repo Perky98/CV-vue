@@ -6,6 +6,7 @@ const props = defineProps<{
   durations: string
   technologies: string
   name: string
+  type: string
 }>()
 </script>
 
@@ -15,7 +16,10 @@ const props = defineProps<{
     <div>
       <h2 class="text-2xl font-bold text-gray-100">{{ title }}</h2>
       <a class="font-bold text-gray-100 text-lg" target="_blank" :href="link">{{ name }}</a>
-      <h3 class="text-gray-100">{{ durations }}</h3>
+      <div class="flex gap-4">
+        <h3 class="text-gray-100">{{ durations }}</h3>
+        <p class="text-gray-100">{{ type }}</p>
+      </div>
       <p class="text-gray-100">{{ technologies }}</p>
     </div>
   </div>

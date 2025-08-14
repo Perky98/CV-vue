@@ -3,7 +3,7 @@ import Myweb from '@/components/Projects/Myweb.vue'
 </script>
 
 <template>
-  <section class="mx-auto w-full max-w-3xl">
+  <section class="mx-auto w-full max-w-5xl">
     <h2 class="text-center md:text-left text-3xl font-bold my-8">Projects</h2>
     <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <myweb
