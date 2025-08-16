@@ -15,7 +15,7 @@ const props = defineProps<{
   >
     <img
       :src="`/src/assets/projects/${image}.png`"
-      alt="{{ name }}"
+      :alt="name"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>

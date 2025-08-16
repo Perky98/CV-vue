@@ -9,7 +9,7 @@ const props = defineProps<{
 
 <template>
   <div class="flex gap-5">
-    <img class="w-[30px] h-[30px] mt-1" :src="`/src/assets/${image}`" alt="{{name}}" />
+    <img class="w-[30px] h-[30px] mt-1" :src="`/src/assets/${image}`" :alt="name" />
     <div>
       <h2 class="text-2xl font-bold text-gray-100">{{ title }}</h2>
       <span class="font-bold text-gray-100 text-lg">{{ name }}</span>
