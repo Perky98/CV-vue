@@ -14,7 +14,7 @@ const props = defineProps<{
     class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl mx-4 md:mx-0 px-8 pb-8 pt-40"
   >
     <img
-      :src="`/cv-vue/src/assets/projects/${image}.png`"
+      :src="`/CV-vue/src/assets/projects/${image}.png`"
       :alt="name"
       class="absolute inset-0 h-full w-full object-cover"
     />
