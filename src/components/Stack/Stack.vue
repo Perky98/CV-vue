@@ -10,10 +10,9 @@ import Logo from '@/components/Stack/Logo.vue'
     <div class="flex  items-center justify-center gap-10 mt-2 md:justify-around">
       <logo image="vue"/>
       <logo image="qwik"/>
-      <logo image="js"/>
-      <logo image="tailwind"/>
-      <logo image="sass"/>
-
+      <logo image="JS"/>
+      <logo image="Tailwind"/>
+      <logo image="Sass"/>
       <logo image="alpine"/>
 
     </div>

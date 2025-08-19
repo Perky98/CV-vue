@@ -6,7 +6,7 @@ const props = defineProps<{
 
 <template>
   <div class="relative text-gray-400">
-    <img class=" h-[3rem]" :src="`/CV-vue/assets/stack/${image}.png`" alt="image">
+    <img class=" h-[3rem]" :src="`./assets/stack/${image}.png`" alt="image">
   </div>
 </template>
 
